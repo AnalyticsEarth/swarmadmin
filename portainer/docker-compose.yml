@@ -10,3 +10,5 @@ services:
       - portainer_data:/data
     ports:
       - "9000:9000/tcp"
+volumes:
+  portainer_data:
